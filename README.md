@@ -41,6 +41,16 @@ The experimental results for the cora citation graph with keyword/keyphrase extr
 | KBERT3| 74.4 | 87.4 | 90.5 |
 |KBERT3G| 77.3 | 88   | 93   |
 
+
+| T: 10 | 0.15 | 0.45 | 0.75 |
+| ----- | ---- | ---- | ---- | 
+| cora  | 84.6 | 92.9 | 94.1 |
+| TFIDF | 66.8 | 81.8 | 89.8 |
+| YAKE  | 70.2 | 86.6 | 91.7 |
+| PRank | 85.3 | 92.2 | 94.6 |
+
+
+
 Time in seconds:
 
 | T: 5  | 0.15 | 0.45 | 0.75 |
@@ -51,6 +61,14 @@ Time in seconds:
 | PRank | 17   | 37.7 | 63.6 |
 | KBERT3| 13.4 | 34.5 | 59.4 |
 |KBERT3G| 12.7 | 35.6 | 57   |
+
+
+| T: 10 | 0.15 | 0.45 | 0.75 |
+| ----- | ---- | ---- | ---- | 
+| cora  | 42.1 | 113.4| 190  |
+| TFIDF | 20.8 | 34.8 | 59.8 |
+| YAKE  | 13.5 | 38   | 59.7 |
+| PRank | 17   | 47.4 | 80.2 |
 
 ## Dependencies
 
